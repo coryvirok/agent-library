@@ -10,6 +10,9 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: ticketing
+      description: Filesystem-based ticket tracker for creating, listing, moving, and searching markdown tickets in backlog/in-progress/done buckets
+      source: https://github.com/coryvirok/ticketing-skill/blob/main/SKILL.md
   agents: []
   prompts: []
